@@ -1,0 +1,645 @@
+{
+  "step1":{
+     "text":"The player starts on a deserted beach on the mysterious Mysteria Island. They find a tattered map and a strange, glowing stone in the sand. The objective is to explore the island, uncover its secrets, and find a way to escape.",
+     "options":{
+        "A":{
+           "text":"Follow the map to an ancient village.",
+           "nextStep":"step2A"
+        },
+        "B":{
+           "text":"Investigate a mysterious shipwreck nearby.",
+           "nextStep":"step2B"
+        }
+     }
+  },
+  "step2A":{
+     "text":"The player enters a dense jungle filled with exotic plants and animals. They must choose the correct path to move forward, avoiding dangers like poisonous plants and aggressive wildlife.",
+     "options":{
+        "A1":{
+           "text":"Follow the sound of rushing water.",
+           "nextStep":"step3A1"
+        },
+        "A2":{
+           "text":"Climb a tree to get a better view of the surroundings.",
+           "nextStep":"step3A2"
+        }
+     }
+  },
+  "step2B":{
+     "text":"The player explores the mysterious shipwreck and discovers a hidden compartment with a cryptic message.",
+     "options":{
+        "B1":{
+           "text":"Decipher the cryptic message.",
+           "nextStep":"step3B1"
+        },
+        "B2":{
+           "text":"Continue exploring the shipwreck.",
+           "nextStep":"step3B2"
+        }
+     }
+  },
+  "step3A1":{
+     "text":"The player follows the sound of rushing water and discovers a mystical waterfall.",
+     "options":{
+        "A1a":{
+           "text":"Enter the hidden cave behind the waterfall.",
+           "nextStep":"step4A1a"
+        },
+        "A1b":{
+           "text":"Search the area around the waterfall for clues.",
+           "nextStep":"step4A1b"
+        }
+     }
+  },
+  "step3A2":{
+     "text":"From the treetop, the player spots a hidden path leading to an abandoned village.",
+     "options":{
+        "A2a":{
+           "text":"Descend and follow the path to the village.",
+           "nextStep":"step4A2a"
+        },
+        "A2b":{
+           "text":"Continue exploring the jungle from the treetops.",
+           "nextStep":"step4A2b"
+        }
+     }
+  },
+  "step3B1":{
+     "text":"Deciphering the cryptic message reveals a hidden underground passage beneath the shipwreck.",
+     "options":{
+        "B1a":{
+           "text":"Venture into the underground passage.",
+           "nextStep":"step4B1a"
+        },
+        "B1b":{
+           "text":"Return to the beach and follow the map.",
+           "nextStep":"step4B1b"
+        }
+     }
+  },
+  "step3B2":{
+     "text":"The player discovers a secret room in the shipwreck, filled with valuable treasures.",
+     "options":{
+        "B2a":{
+           "text":"Collect the treasures and find a way off the island.",
+           "nextStep":"step4B2a"
+        },
+        "B2b":{
+           "text":"Leave the treasures and return to the beach to follow the map.",
+           "nextStep":"step4B2b"
+        }
+     }
+  },
+  "step4A1a":{
+     "text":"The player enters the hidden cave behind the waterfall and encounters a powerful spirit guarding an ancient artifact.",
+     "options":{
+        "A1aa":{
+           "text":"Try to negotiate with the spirit.",
+           "nextStep":"step5A1aa"
+        },
+        "A1ab":{
+           "text":"Challenge the spirit to a battle.",
+           "nextStep":"step5A1ab"
+        }
+     }
+  },
+  "step4A1b":{
+     "text":"Searching the area around the waterfall, the player finds a trail leading up the mountain.",
+     "options":{
+        "A1ba":{
+           "text":"Climb the trail to a mountaintop temple.",
+           "nextStep":"step5A1ba"
+        },
+        "A1bb":{
+           "text":"Venture into a hidden cave along the trail.",
+           "nextStep":"step5A1bb"
+        }
+     }
+  },
+  "step4A2a":{
+     "text":"The player follows the path to the abandoned village and finds a mysterious totem.",
+     "options":{
+        "A2aa":{
+           "text":"Take the totem and search for its purpose.",
+           "nextStep":"step5A2aa"
+        },
+        "A2ab":{
+           "text":"Leave the totem and explore the village further.",
+           "nextStep":"step5A2ab"
+        }
+     }
+  },
+  "step4A2b":{
+     "text":"Continuing to explore the jungle from the treetops, the player discovers an ancient temple.",
+     "options":{
+        "A2ba":{
+           "text":"Climb down and explore the temple.",
+           "nextStep":"step5A2ba"
+        },
+        "A2bb":{
+           "text":"Keep exploring the jungle from above.",
+           "nextStep":"step5A2bb"
+        }
+     }
+  },
+  "step4B1a":{
+     "text":"The player ventures into the underground passage and encounters a mystical creature.",
+     "options":{
+        "B1aa":{
+           "text":"Try to befriend the mystical creature.",
+           "nextStep":"step5B1aa"
+        },
+        "B1ab":{
+           "text":"Sneak past the mystical creature.",
+           "nextStep":"step5B1ab"
+        }
+     }
+  },
+  "step4B1b":{
+     "text":"Returning to the beach, the player follows the map and finds a mysterious portal.",
+     "options":{
+        "B1ba":{
+           "text":"Enter the portal.",
+           "nextStep":"step5B1ba"
+        },
+        "B1bb":{
+           "text":"Continue searching for another way off the island.",
+           "nextStep":"step5B1bb"
+        }
+     }
+  },
+  "step4B2a":{
+     "text":"The player decides to collect the treasures and build a makeshift raft to sail off the island.",
+     "options":{
+        "B2aa":{
+           "text":"Sail into the open sea with the treasures.",
+           "nextStep":"step5B2aa"
+        },
+        "B2ab":{
+           "text":"Change their mind and return to the beach to follow the map.",
+           "nextStep":"step5B2ab"
+        }
+     }
+  },
+  "step4B2b":{
+     "text":"Leaving the treasures behind, the player follows the map to a mysterious lighthouse on a cliff.",
+     "options":{
+        "B2ba":{
+           "text":"Investigate the lighthouse.",
+           "nextStep":"step5B2ba"
+        },
+        "B2bb":{
+           "text":"Search the surrounding area for clues.",
+           "nextStep":"step5B2bb"
+        }
+     }
+  },
+  "step5A1aa":{
+     "text":"Negotiating with the spirit, the player gains access to the ancient artifact and learns about a hidden path to the mainland.",
+     "options":{
+        "A1aaa":{
+           "text":"Perform a ritual to lift the island's curse.",
+           "nextStep":"step6A1aaa"
+        },
+        "A1aab":{
+           "text":"Refuse the ritual and find another way off the island.",
+           "nextStep":"step6A1aab"
+        }
+     }
+  },
+  "step5A1ab":{
+     "text":"The player defeats the spirit in battle and acquires the ancient artifact.",
+     "options":{
+        "A1aba":{
+           "text":"Harness the artifact's power to escape the island.",
+           "nextStep":"step6A1aba"
+        },
+        "A1abb":{
+           "text":"Investigate the artifact further.",
+           "nextStep":"step6A1abb"
+        }
+     }
+  },
+  "step5A1ba":{
+     "text":"The player reaches the mountaintop temple and finds a magical staff.",
+     "options":{
+        "A1baa":{
+           "text":"Use the magical staff to escape the island.",
+           "nextStep":"step6A1baa"
+        },
+        "A1bab":{
+           "text":"Leave the staff and search for another way off the island.",
+           "nextStep":"step6A1bab"
+        }
+     }
+  },
+  "step5A1bb":{
+     "text":"The player ventures into the hidden cave and discovers a labyrinth.",
+     "options":{
+        "A1bba":{
+           "text":"Navigate the labyrinth.",
+           "nextStep":"step6A1bba"
+        },
+        "A1bbb":{
+           "text":"Return to the village and continue searching there.",
+           "nextStep":"step6A1bbb"
+        }
+     }
+  },
+  "step5A2aa":{
+     "text":"The player takes the totem and discovers it unlocks a hidden underground chamber.",
+     "options":{
+        "A2aaa":{
+           "text":"Explore the underground chamber.",
+           "nextStep":"step6A2aaa"
+        },
+        "A2aab":{
+           "text":"Return to the village and continue searching there.",
+           "nextStep":"step6A2aab"
+        }
+     }
+  },
+  "step5A2ab":{
+     "text":"The player continues to explore the village, finding a secret entrance to a hidden sanctuary.",
+     "options":{
+        "A2aba":{
+           "text":"Enter the sanctuary and search for clues.",
+           "nextStep":"step6A2aba"
+        },
+        "A2abb":{
+           "text":"Return to the jungle and continue searching there.",
+           "nextStep":"step6A2abb"
+        }
+     }
+  },
+  "step5A2ba":{
+     "text":"The player explores the ancient temple and discovers a prophecy about the island's curse.",
+     "options":{
+        "A2baa":{
+           "text":"Fulfill the prophecy to unlock the island's secret.",
+           "nextStep":"step6A2baa"
+        },
+        "A2bab":{
+           "text":"Return to the jungle and continue searching there.",
+           "nextStep":"step6A2bab"
+        }
+     }
+  },
+  "step5A2bb":{
+     "text":"The player discovers an ancient stone tablet in the jungle, detailing the island's hidden history.",
+     "options":{
+        "A2bba":{
+           "text":"Use the knowledge to break the island's curse and find a way to escape.",
+           "nextStep":"end"
+        },
+        "A2bbb":{
+           "text":"Continue exploring the island to find another way to escape.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step5B1aa":{
+     "text":"The player befriends the mystical creature, which leads them to an enchanted boat that can sail them off the island.",
+     "options":{
+        "B1aaa":{
+           "text":"Sail away with the mystical creature's help.",
+           "nextStep":"end"
+        },
+        "B1aab":{
+           "text":"Decline the help and search for another way off the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step5B1ab":{
+     "text":"The player sneaks past the mystical creature and discovers an ancient portal that leads to another realm.",
+     "options":{
+        "B1aba":{
+           "text":"Enter the portal and find a way to escape the island from the other realm.",
+           "nextStep":"end"
+        },
+        "B1abb":{
+           "text":"Stay on the island and continue searching for another way to escape.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step5B1ba":{
+     "text":"The player enters the portal and arrives on a nearby mainland, escaping the island.",
+     "options":{
+        "B1baa":{
+           "text":"Explore the new land and begin a new adventure.",
+           "nextStep":"end"
+        },
+        "B1bab":{
+           "text":"Return to the island to uncover more of its mysteries.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step5B1bb":{
+     "text":"The player continues searching for another way off the island and discovers a hidden cave with a magical artifact.",
+     "options":{
+        "B1bba":{
+           "text":"Use the magical artifact to teleport off the island.",
+           "nextStep":"end"
+        },
+        "B1bbb":{
+           "text":"Keep searching for another way to escape.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step5B2aa":{
+     "text":"Sailing into the open sea with the treasures, the player is rescued by a passing ship.",
+     "options":{
+        "B2aaa":{
+           "text":"Share the story and the treasures with the ship's crew.",
+           "nextStep":"end"
+        },
+        "B2aab":{
+           "text":"Keep the treasures and the adventure a secret.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step5B2ab":{
+     "text":"Returning to the beach, the player finds a hidden cave that leads to an ancient, mystical city.",
+     "options":{
+        "B2aba":{
+           "text":"Explore the mystical city to find a way to escape the island.",
+           "nextStep":"end"
+        },
+        "B2abb":{
+           "text":"Keep searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step5B2ba":{
+     "text":"The player investigates the lighthouse and discovers a secret laboratory inside.",
+     "options":{
+        "B2baa":{
+           "text":"Search the laboratory for clues about the island's secrets.",
+           "nextStep":"end"
+        },
+        "B2bab":{
+           "text":"Leave the laboratory and continue searching for a way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step5B2bb":{
+     "text":"The player finds a hidden path leading up the mountain and discovers an ancient shrine.",
+     "options":{
+        "B2bba":{
+           "text":"Use the shrine to unlock the island's secrets and escape.",
+           "nextStep":"end"
+        },
+        "B2bbb":{
+           "text":"Keep searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A1aaa":{
+     "text":"The player performs the ritual and breaks the island's curse, unlocking a hidden path to the mainland.",
+     "options":{
+        "A1aaaa":{
+           "text":"Follow the hidden path to escape the island.",
+           "nextStep":"end"
+        },
+        "A1aaab":{
+           "text":"Stay on the island and continue exploring its secrets.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A1aab":{
+     "text":"The player refuses the ritual and discovers another way off the island.",
+     "options":{
+        "A1aaba":{
+           "text":"Escape the island using the newly discovered way.",
+           "nextStep":"end"
+        },
+        "A1aabb":{
+           "text":"Stay on the island and continue exploring its secrets.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A1aba":{
+     "text":"The player harnesses the artifact's power to escape the island.",
+     "options":{
+        "A1abaa":{
+           "text":"Continue using the artifact's power on new adventures.",
+           "nextStep":"end"
+        },
+        "A1abab":{
+           "text":"Return the artifact and move on to new adventures.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A1abb":{
+     "text":"The player investigates the artifact further and learns about its true nature.",
+     "options":{
+        "A1abba":{
+           "text":"Keep the artifact and continue exploring its powers on new adventures.",
+           "nextStep":"end"
+        },
+        "A1abbb":{
+           "text":"Return the artifact and move on to new adventures.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A1baa":{
+     "text":"The player uses the magical staff to escape the island.",
+     "options":{
+        "A1baaa":{
+           "text":"Continue using the staff's power on new adventures.",
+           "nextStep":"end"
+        },
+        "A1baab":{
+           "text":"Return the staff and move on to new adventures.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A1bab":{
+     "text":"The player leaves the staff and discovers another way off the island.",
+     "options":{
+        "A1baba":{
+           "text":"Escape the island using the newly discovered way.",
+           "nextStep":"end"
+        },
+        "A1babb":{
+           "text":"Stay on the island and continue exploring its secrets.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A2aaa":{
+     "text":"The player explores the underground chamber, discovering an ancient portal that can transport them off the island.",
+     "options":{
+        "A2aaaa":{
+           "text":"Enter the portal and find a way to escape the island from the other realm.",
+           "nextStep":"end"
+        },
+        "A2aaab":{
+           "text":"Stay on the island and continue searching for another way to escape.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A1bba":{
+     "text":"The player successfully navigates the labyrinth and discovers a hidden underground chamber.",
+     "options":{
+        "A1bbaa":{
+           "text":"Explore the underground chamber and find a way to escape the island.",
+           "nextStep":"end"
+        },
+        "A1bbab":{
+           "text":"Continue searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A1bbb":{
+     "text":"The player returns to the village and discovers a hidden map that leads to a hidden cove.",
+     "options":{
+        "A1bbba":{
+           "text":"Explore the hidden cove and find a way to escape the island.",
+           "nextStep":"end"
+        },
+        "A1bbbb":{
+           "text":"Continue searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A2aab":{
+     "text":"The player returns to the village and discovers a hidden artifact that can help them escape the island.",
+     "options":{
+        "A2aaba":{
+           "text":"Use the artifact to escape the island.",
+           "nextStep":"end"
+        },
+        "A2aabb":{
+           "text":"Continue searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A2aba":{
+     "text":"The player enters the sanctuary and discovers a hidden path that leads to the mainland.",
+     "options":{
+        "A2abaa":{
+           "text":"Follow the hidden path to escape the island.",
+           "nextStep":"end"
+        },
+        "A2abab":{
+           "text":"Stay on the island and continue exploring its secrets.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6A2abb":{
+     "text":"The player returns to the jungle and discovers a hidden artifact that can help them escape the island.",
+     "options":{
+        "A2abba":{
+           "text":"Use the artifact to escape the island.",
+           "nextStep":"end"
+        },
+        "A2abbb":{
+           "text":"Continue searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6B1bba":{
+     "text":"The player successfully navigates the labyrinth and discovers a hidden underground chamber.",
+     "options":{
+        "B1bbaa":{
+           "text":"Explore the underground chamber and find a way to escape the island.",
+           "nextStep":"end"
+        },
+        "B1bbab":{
+           "text":"Continue searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6B1bbb":{
+     "text":"The player returns to the village and discovers a hidden map that leads to a hidden cove.",
+     "options":{
+        "B1bbba":{
+           "text":"Explore the hidden cove and find a way to escape the island.",
+           "nextStep":"end"
+        },
+        "B1bbbb":{
+           "text":"Continue searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6B2aba":{
+     "text":"The player enters the sanctuary and discovers a hidden path that leads to the mainland.",
+     "options":{
+        "B2abaa":{
+           "text":"Follow the hidden path to escape the island",
+           "nextStep":"end"
+        },
+        "B2abab":{
+           "text":"Stay on the island and continue exploring its secrets.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6B2abb":{
+     "text":"The player returns to the jungle and discovers a hidden artifact that can help them escape the island.",
+     "options":{
+        "B2abba":{
+           "text":"Use the artifact to escape the island.",
+           "nextStep":"end"
+        },
+        "B2abbb":{
+           "text":"Continue searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6B2bba":{
+     "text":"The player discovers a hidden portal that leads to another realm.",
+     "options":{
+        "B2bbaa":{
+           "text":"Enter the portal and find a way to escape the island from the other realm.",
+           "nextStep":"end"
+        },
+        "B2bbab":{
+           "text":"Stay on the island and continue searching for another way to escape.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "step6B2bbb":{
+     "text":"The player returns to the village and discovers a hidden artifact that can help them escape the island.",
+     "options":{
+        "B2bbba":{
+           "text":"Use the artifact to escape the island.",
+           "nextStep":"end"
+        },
+        "B2bbbb":{
+           "text":"Continue searching for another way to escape the island.",
+           "nextStep":"end"
+        }
+     }
+  },
+  "end":{
+     "text":"Congratulations, you have successfully escaped Mysteria Island! Thank you for playing.",
+     "options":{
+        
+     }
+  }
+}
